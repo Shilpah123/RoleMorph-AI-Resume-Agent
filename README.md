@@ -207,30 +207,6 @@ RoleMorph demonstrates consistent and explainable improvements in resume-job ali
 - **Reliability:** Deterministic scoring across repeated runs
 - **Format Support:** .docx only (Word 2007+)
 
----
-
-## 🏆 Competition Highlights
-
-### Why This Solution Stands Out
-
-1. **Visible Multi-Agent Architecture** - Judges can see all 9 agents in action
-2. **Explainability** - Clear visibility into what each agent does
-3. **Measurable Outcomes** - Before/After score comparison
-4. **Production Quality** - Clean UI, error handling, validation
-5. **Semantic Understanding** - Goes beyond simple keyword matching
-6. **Interview-Safe** - No fabrication or hallucination
-
-### Innovation Points
-
-- **9 specialized agents** working in a coordinated pipeline
-- **Real-time workflow visualization** showing agent execution
-- **Deterministic ATS scoring** with confidence levels and explainability
-- **Transferable skills mapping** across domains
-- **Role adjacency detection** for career transitions
-- **Quality-aware rewriting** (preserves good content)
-- **No fabrication guarantee** - only restructures existing experience
-
----
 
 ## 🛠️ System Requirements
 
@@ -239,18 +215,10 @@ RoleMorph demonstrates consistent and explainable improvements in resume-job ali
 - 4GB RAM minimum
 - OpenAI API key (optional - for enhanced features)
 
----
+
 
 ## 📝 License
 
 This project is submitted for the Kaggle AI Agents Competition.
 
----
 
-## 👥 Contact
-
-For questions or issues, please refer to the documentation or contact the development team.
-
----
-
-**Built with ❤️ for the Kaggle AI Agents Competition**
