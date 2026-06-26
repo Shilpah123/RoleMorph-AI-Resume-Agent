@@ -43,7 +43,22 @@ class JobAnalysisAgent:
         """Extract target role/job title."""
         lines = job_desc.split('\n')
         
-        # Pattern 1: Look for explicit role/title/position labels
+        # Pattern 1: "looking for X" or "seeking X" constructs
+        looking_patterns = [
+            r'(?:looking for|seeking|hiring)\s+(?:a|an)?\s+([A-Z][A-Za-z\s]{10,60})(?:\s+is|\s+to|\s+who|\s+with|\.|$)',
+            r'(?:looking for|seeking|hiring)\s+(?:a|an)?\s+([A-Z][A-Za-z\s]{10,60})\s*[\.\n]',
+        ]
+        
+        for pattern in looking_patterns:
+            match = re.search(pattern, job_desc, re.MULTILINE)
+            if match:
+                role = match.group(1).strip()
+                # Clean up trailing words that aren't part of the title
+                role = re.sub(r'\s+(is|to|who|with|for)$', '', role, flags=re.IGNORECASE)
+                if len(role) > 10 and role.lower() not in ['about the role', 'the role']:
+                    return role
+        
+        # Pattern 2: Look for explicit role/title/position labels
         patterns = [
             r'(?:position|role|title|job title):\s*([A-Z][^\n]{5,80})',
             r'(?:As|as)\s+(?:a|an)?\s*([A-Z][^\n,]{10,80}),',
@@ -56,7 +71,7 @@ class JobAnalysisAgent:
                 if role.lower() not in ['about the role', 'the role', 'overview', 'job summary', 'job description']:
                     return role
         
-        # Pattern 2: Look for role after 'Job Summary' or similar headers
+        # Pattern 3: Look for role after 'Job Summary' or similar headers
         for i, line in enumerate(lines):
             line_lower = line.lower().strip()
             if line_lower in ['job summary', 'position summary', 'role summary']:
@@ -74,7 +89,7 @@ class JobAnalysisAgent:
                         if role_match:
                             return role_match.group(1).strip()
         
-        # Pattern 3: First substantial line (fallback)
+        # Pattern 4: First substantial line (fallback)
         for line in lines[:10]:
             line = line.strip()
             if line and 10 < len(line) < 100 and line[0].isupper():

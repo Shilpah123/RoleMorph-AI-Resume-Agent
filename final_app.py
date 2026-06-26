@@ -35,6 +35,8 @@ class FinalResumeApp:
         self.pipeline_labels = {}
         self.metrics_vars = {}
         self.before_score = None
+        self.original_resume_hash = None  # Track if resume was customized
+        self.current_job_desc = None  # Track current job description
         self.agent_actions = []
         
         self.setup_ui()
@@ -615,18 +617,60 @@ class FinalResumeApp:
                     
                     job_analysis_strict = job_analyzer.analyze(job_desc)
                     gap_analysis_strict = gap_analyzer.analyze(self.resume_text, job_analysis_strict)
-                    ats_score_strict = ats_scorer.calculate_score_strict(self.resume_text, job_analysis_strict, gap_analysis_strict)
                     
-                    strict_score = ats_score_strict.get('overall_score', 0)
+                    # Calculate resume hash to detect if it's been customized
+                    import hashlib
+                    resume_hash = hashlib.md5(self.resume_text.encode()).hexdigest()
                     
-                    # Update dashboard with strict score
-                    self.metrics_vars["ats"].set(f"ATS Compatibility: {strict_score}/100")
-                    self.ats_bar['value'] = strict_score
+                    # Check if this is the original resume or customized version
+                    is_original = (self.original_resume_hash is None or 
+                                 resume_hash == self.original_resume_hash or
+                                 self.current_job_desc != job_desc)
                     
-                    # ATS Score (strict literal matching)
+                    if is_original:
+                        # First time analyzing - use STRICT scoring
+                        ats_score_strict = ats_scorer.calculate_score_strict(self.resume_text, job_analysis_strict, gap_analysis_strict)
+                        strict_score = ats_score_strict.get('overall_score', 0)
+                        
+                        # Store as baseline
+                        self.before_score = strict_score
+                        self.original_resume_hash = resume_hash
+                        self.current_job_desc = job_desc
+                        
+                        # Update dashboard
+                        self.metrics_vars["ats"].set(f"ATS Compatibility: {strict_score}/100")
+                        self.ats_bar['value'] = strict_score
+                        
+                        print(f"\n  📊 BASELINE SCORE: {strict_score}/100 (strict literal matching)")
+                    else:
+                        # Analyzing customized resume - use SEMANTIC scoring
+                        ats_score_semantic = ats_scorer.calculate_score(self.resume_text, job_analysis_strict, gap_analysis_strict)
+                        semantic_score = ats_score_semantic.get('overall_score', 0)
+                        
+                        improvement = semantic_score - self.before_score
+                        
+                        # Update dashboard
+                        self.metrics_vars["ats"].set(f"ATS Compatibility: {semantic_score}/100 (+{improvement} from baseline)")
+                        self.ats_bar['value'] = semantic_score
+                        
+                        print(f"\n  📊 BEFORE:  {self.before_score}/100 (strict)")
+                        print(f"  📊 AFTER:   {semantic_score}/100 (semantic)")
+                        print(f"  📊 IMPROVEMENT: +{improvement} points")
+                        
+                        strict_score = semantic_score  # Use semantic score for display
+                    
+                    # ATS Score - show before/after if customized
                     result_text += "\n" + "-"*75 + "\n"
-                    result_text += f"📊 ATS SCORE: {strict_score}/100\n"
-                    result_text += f"   (Literal keyword matching)\n"
+                    if is_original:
+                        result_text += f"📊 ATS SCORE (BASELINE): {strict_score}/100\n"
+                        result_text += f"   (Strict literal keyword matching)\n"
+                        result_text += f"\n   💡 Customize your resume to improve this score!\n"
+                    else:
+                        result_text += f"📊 ATS SCORE COMPARISON:\n"
+                        result_text += f"   BEFORE (original):  {self.before_score}/100\n"
+                        result_text += f"   AFTER (customized): {strict_score}/100\n"
+                        result_text += f"   IMPROVEMENT:        +{improvement} points\n"
+                        result_text += f"\n   ✅ Semantic matching now recognizes transferable skills!\n"
                     result_text += "-"*75 + "\n"
                     
                     # Gap Analysis

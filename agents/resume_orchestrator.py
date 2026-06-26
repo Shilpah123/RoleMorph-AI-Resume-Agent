@@ -83,7 +83,9 @@ class ResumeOrchestrator:
                 original_summary or "",
                 domain_analysis['transferable_skills'],
                 years,
-                job_domain=domain_analysis['job_domain']
+                job_domain=domain_analysis['job_domain'],
+                resume_text=resume_text,
+                job_requirements=job_analysis.get('required_skills', [])
             )
             # For domain mismatch, always use transferable skills summary - it's more relevant
             print(f"  ✓ Using transferable skills summary (domain-specific)")

@@ -1,14 +1,66 @@
 About the job
-At MJH Life Sciences our success is measured by your success! If you set your standards high and want to contribute to a winning team, we’ll provide you with every opportunity to help grow our company and your career. Our associates come from all backgrounds, sharing one key quality: determination to succeed. We value being Service Focused, having a Passion for Winning, Innovation, Respect, Integrity, and Teamwork. Nothing means more to us than hiring people with these attributes. If you believe you’re right for the job, this is the place to prove it!
+Location: Ottawa, Canada
 
-As a Medical Writer with the Enterprise Content Team at MJH Life Sciences®, you will play a vital role in developing educational content for healthcare professional audiences. This position offers the opportunity to work on a wide range of projects, including discussion guides, slide decks, and video-based tools, while collaborating with leading experts across diverse fields. Your work will contribute to creating high-quality, scientifically accurate content that helps improve patient care outcomes.
+In fast changing markets, customers worldwide rely on Thales. Thales is a business where brilliant people from all over the world come together to share ideas and inspire each other. In aerospace, transportation, defence, security and space, our architects design innovative solutions that make our tomorrow's possible.
 
-Key Responsibilities
+For decades, Ottawa has been a global technology leader. Today, Canada’s capital holds one of the brightest and most diverse technological ecosystems in North America. Voted as Canada’s best place to live 2017 by Maclean's, Ottawa offers a low cost of living with a high quality of life. The Thales Ottawa office has been a major supplier and long-term trusted partner to DND, enabling the Canadian Armed Forces and the Canadian Coast Guard to achieve mission success.
 
- Conduct extensive literature reviews on various disease states, therapeutic advancements, and clinical data.
- Comprehend and apply relevant evidenced-based medical literature, clinical practice guidelines, and disease-state information for the development of content across various therapeutic areas (eg, identify levels of evidence, clinical trial data, clinical utility of therapeutic choices and unmet needs in treatment landscapes, product-specific education)
- Develop relevant, accurate, and high-quality content for digital, print, video, and event deliverables, ensuring adherence to in-house and AMA style guidelines.
- Write, edit, and revise content independently throughout the project lifecycle, incorporating feedback from faculty, internal teams, and other stakeholders.
- Ensure the scientific and clinical accuracy of all materials through comprehensive fact-checking of referenced literature.
- Attend professional conferences and events to capture key presentation highlights and create content for project deliverables (minimal travel required; 2-3 days per month).
- Collaborate effectively with cross-functional teams, including internal professional services, to ensure project success. Interface regularly with clients, key thought leaders, and faculty during meetings and project discussions.
+Technical Publications Team Lead
+
+Ottawa, ON./ Victoria, B.C./ Halifax, N.S., (CAN.) - Hybrid
+
+Position Summary
+
+Thales is looking for a Technical Publications Team Lead is a high-level individual contributor role designed to facilitate the day-to-day coordination of the Technical Data Package (TDP) lifecycle. Reporting directly to the Technical Documentation Manager, this role is essential to supporting the Manager by providing consistent workflow oversight, technical review, and process coordination within a complex defence environment.
+
+The Team Lead acts as a functional link between the Manager and the project teams, ensuring that documentation tasks stay on schedule and adhere to required standards. This position is dedicated to the functional execution of documentation processes and quality assurance, serving as a key pillar of support for the Technical Documentation Manager in maintaining the integrity and delivery of all technical data products.
+
+Regulatory Compliance Requirement
+
+This position requires direct or indirect access to hardware, software or technical information controlled under the Canadian Export Control List and/or the US the Export Administration Regulations (EAR). All applicants must be eligible or able to obtain authorization for such access.
+
+Key Areas of Responsibility 
+
+Workflow Coordination & Management Support
+Operational Triage: Assist the Manager by triaging daily Document Change Package (DCP/r) requests and Problem Incident Reports (PIR), ensuring they are appropriately tracked and progressed through the lifecycle.
+Daily Workflow Oversight: Monitor the progress of tasks assigned to staff and contractors to ensure delivery timelines for major programmes are met, escalating potential bottlenecks to the Manager.
+Reporting & Visibility: Maintain and update Dashboards and KPIs to provide the Manager with a clear, real-time view of technical data package status and team productivity.
+Documentation Standardisation: Develop and maintain work instructions, style guides, and instructional materials to assist the team in producing consistent, high-quality output.
+Technical Review & Quality Assurance
+TDP Gatekeeping: Perform thorough peer reviews and technical checks on various publications (CFTOs, LSARs, BOMs, and drawings) to ensure compliance with military and customer standards before final approval.
+Change Package Processing: Review and prepare disposition recommendations for Document Change Packages, liaising with technical contributors to address requirements and coordinate revisions.
+Audit & Review Support: Assist the Manager in preparing for Physical Configuration Audits (PCA) and design reviews by organising evidence, tracking progress, and ensuring the final TDP is logically structured.
+Verification Coordination: Track and report on the status of technical verification activities to ensure all products are accurate and compliant with the support solution.
+Systems & Process Support
+Workflow Administration: Oversee the day-to-day operation of the Master Data Management Portal, using SharePoint and Nintex to process deliveries to external stakeholders and clients.
+Process Enhancement: Identify manual bottlenecks and assist the Manager in implementing automated solutions using VBA, SQL, or XML to improve team efficiency.
+Tool Maintenance: Serve as the primary functional user for the OmegaPS suite and related logistics tools, identifying bugs and coordinating resolutions with vendors to ensure system availability.
+ILS & Stakeholder Liaison
+Cross-Functional Alignment: Coordinate with Obsolescence, Sparing, and Engineering teams to ensure that publication updates are synchronised with Integrated Logistics Support (ILS) functions and LSAR entries.
+Data Indexing: Facilitate the indexing of documentation in accordance with the National Defence Index of Documentation (NDID) and the relevant Equipment Family Tree (EFT).
+
+
+Minimum Qualifications
+
+Education: Minimum 2-year technical programme diploma from a recognised institute in a related technical field (Mechanical, Electrical, Software, or Naval Architecture) or eligibility for registration as a technician.
+Experience: * Minimum of 5 years of demonstrated experience in the production, revision, and coordination of complex Technical Data Packages (TDP).
+Proven experience in a senior analyst or coordinator role within a defence, marine, or aerospace environment.
+Technical Knowledge; Comprehensive understanding of Integrated Logistics Support (ILS) and LSAR management; Advanced proficiency in OmegaPS, IPESA, SharePoint, and Nintex Workflow;Strong ability to interpret engineering drawings, technical manuals, and Bills of Materials (BOM).
+Specialised Skills: Functional familiarity with SQL, XML, and VBA to support documentation management.
+Compliance: Direct experience navigating military and Department of National Defence (DND) regulations and standards.
+
+
+If you’re excited about working with Thales, but not meeting the requirements for this position, we encourage you to join our Talent Community!
+
+Preferred Qualifications
+
+Certifications: Successful completion of a Technical Writer Ontario College Graduate Certificate or equivalent experience.
+Specifications & Documentation: Advanced knowledge of S1000D specifications, IETM formats, and CFTO formatting (including government-adopted technical publications).
+Military Infrastructure & Industry Context: * Familiarity with DRMIS, the NDID, and cataloguing within the Canadian Forces Supply System.
+Direct experience with DND In-Service Support (ISS) contracts and supporting operational military assets.
+Standardisation & Analysis: * Familiarity with Logistics Support Analysis (LSA) and formal requirements (MIL-STD-1388-2B, GEIA-STD-0007).
+Exposure to LSA application software such as OmegaPS.
+Data & Databases: Proficiency in Power BI and Microsoft Access is considered a strong asset for data visualization and tracking.
+Language: Bilingualism (English/French) is highly desirable.
+Certifications: Successful completion of a Technical Writer Ontario College Graduate Certificate or equivalent experience.
+
