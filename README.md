@@ -114,7 +114,7 @@ Optimized Resume Output
 - `requirements.txt` - Python dependencies
 
 ### Launcher
-- `RUN_NO_CACHE.bat` - Launch script (Windows)
+- `Launch_RoleMorph_UI.bat` - Launch script (Windows)
 
 ---
 
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 
 **Windows:**
 ```bash
-RUN_NO_CACHE.bat
+Launch_RoleMorph_UI.bat
 ```
 
 **Linux/Mac:**
@@ -215,7 +215,49 @@ RoleMorph demonstrates consistent and explainable improvements in resume-job ali
 - 4GB RAM minimum
 - OpenAI API key (optional - for enhanced features)
 
+---
 
+## 🚀 Future Enhancements
+
+### Planned Agents (Future Releases)
+
+The following agents are planned for future releases to extend system capabilities:
+
+#### Role Title Recommendation Agent
+
+A specialized agent that analyzes job descriptions and recommends role titles that better align with target positions while remaining grounded in the candidate's actual experience.
+
+**Proposed Capabilities:**
+* Analyze job requirements and responsibilities
+* Identify dominant skill and experience themes
+* Recommend ATS-friendly professional titles
+* Support career-transition scenarios by highlighting transferable expertise
+* Ensure recommendations remain consistent with the candidate's documented experience
+
+**Example:**
+
+Current Resume Title:
+```
+Technical Communication Specialist
+```
+
+Suggested Title for AI-Focused Roles:
+```
+AI Strategy Lead | Digital Transformation Specialist | Technical Communication Professional
+```
+
+Suggested Title for Documentation Leadership Roles:
+```
+Technical Publications Lead | Documentation Manager | Content Strategy Specialist
+```
+
+#### Future Enhancement
+
+* **Role Title Recommendation Agent**: Analyzes job descriptions and recommends ATS-friendly role titles that align with target positions while remaining grounded in candidate's actual experience
+
+**Note:** This agent is not currently implemented but represents the planned evolution of the RoleMorph system.
+
+---
 
 ## 📝 License
 

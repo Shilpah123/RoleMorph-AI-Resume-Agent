@@ -1,66 +1,41 @@
-About the job
-Location: Ottawa, Canada
+About The Role
 
-In fast changing markets, customers worldwide rely on Thales. Thales is a business where brilliant people from all over the world come together to share ideas and inspire each other. In aerospace, transportation, defence, security and space, our architects design innovative solutions that make our tomorrow's possible.
+D-Wave is seeking a skilled Technical Content Writer and Instructor with strong optimization knowledge to write new technical learning materials and support clients in building quantum optimization solutions. In this role, you will collaborate with internal teams and clients to define learning needs, write new curriculum and learning content, manage and improve existing training materials, and deliver high-quality training experiences.
 
-For decades, Ottawa has been a global technology leader. Today, Canada’s capital holds one of the brightest and most diverse technological ecosystems in North America. Voted as Canada’s best place to live 2017 by Maclean's, Ottawa offers a low cost of living with a high quality of life. The Thales Ottawa office has been a major supplier and long-term trusted partner to DND, enabling the Canadian Armed Forces and the Canadian Coast Guard to achieve mission success.
+What You'll Do
 
-Technical Publications Team Lead
+Collaborate with internal and external SMEs to write content for new and existing courses on quantum computing, optimization methods, problem formulation, programming, algorithms, benchmarking, quantum physics, and related technical topics.
+Formulate optimization problems, clearly communicate modeling decisions, write clean Python code, and analyze solutions. 
+Own and drive the design and continuous improvement of curriculum and learning experiences, incorporating feedback, performance data, and evolving best practices. 
+Create assessments that align with learning objectives and evaluate effectiveness of curriculum and learning experiences. 
+Deliver engaging in-person and virtual training, workshops, and hackathons; support learners with technical setup and troubleshooting. 
+Lead train-the-trainer sessions to enable scalable, high-quality instruction across instructors. 
+Facilitate alignment across SMEs and stakeholders, resolving ambiguity and driving decisions on content and structure. 
+Support online learners through office hours, discussion forums, answering questions, and timely feedback on assignments. 
+Contribute to LMS operations, including course setup, updates, and reporting. 
+Identify opportunities to improve content, delivery processes, and learner experience. 
+Travel (~25%) to support training events, workshops, and client engagements. 
 
-Ottawa, ON./ Victoria, B.C./ Halifax, N.S., (CAN.) - Hybrid
+What You'll Bring
 
-Position Summary
+Master’s degree with 3+ years' experience in operations research, data science, optimization, mathematics, physics, computer science, or related technical field. 
+Experience in solving real world optimization problems (discrete or continuous), ideally within industries such as manufacturing, logistics, retail, pharma, fintech, and/or research. 
+Strong Python programming skills (2+ years) and experience with version control (e.g., Git). 
+Solid understanding of optimization methods such as mixed-integer programming, constraint programming, and advanced heuristic techniques. 
+Experience writing technical content for adult learners and delivering instructor-led training (in-person and virtual). 
+Ability to collaborate with SMEs and stakeholders to create and refine high-quality learning content. 
+Strong communication skills, with the ability to clearly explain complex technical concepts. 
+Strong problem-solving, critical thinking, and collaboration skills. 
 
-Thales is looking for a Technical Publications Team Lead is a high-level individual contributor role designed to facilitate the day-to-day coordination of the Technical Data Package (TDP) lifecycle. Reporting directly to the Technical Documentation Manager, this role is essential to supporting the Manager by providing consistent workflow oversight, technical review, and process coordination within a complex defence environment.
+A D-Waver's DNA
 
-The Team Lead acts as a functional link between the Manager and the project teams, ensuring that documentation tasks stay on schedule and adhere to required standards. This position is dedicated to the functional execution of documentation processes and quality assurance, serving as a key pillar of support for the Technical Documentation Manager in maintaining the integrity and delivery of all technical data products.
+We look at the future and say “why not”; we see possibilities where others see problems or routines. We show the way ahead and are committed to achieving ambitious goals.
+We practice straight talk and listen generously to each other with empathy. We value different opinions and points of views. We ensure that we connect outside as well as inside to learn from others and inspire each other.
+We hold ourselves accountable for delivering results. We make decisions & take responsibility so that we can act & support each other.
+As leaders we motivate & engage our teams to undertake beyond what they originally thought possible, by developing our teams & creating the conditions for people to grow and empower themselves through enabling & coaching.
 
-Regulatory Compliance Requirement
+Our Compensation Philosophy Is Simple But Powerful
 
-This position requires direct or indirect access to hardware, software or technical information controlled under the Canadian Export Control List and/or the US the Export Administration Regulations (EAR). All applicants must be eligible or able to obtain authorization for such access.
+We believe providing D-Wavers with company ownership, competitive pay, and a range of meaningful benefits is the start of creating a culture where people want to give the best they’ve got — not because they’re simply making money, but because they’ve fallen in love with our vision, mission, values, and team.
 
-Key Areas of Responsibility 
-
-Workflow Coordination & Management Support
-Operational Triage: Assist the Manager by triaging daily Document Change Package (DCP/r) requests and Problem Incident Reports (PIR), ensuring they are appropriately tracked and progressed through the lifecycle.
-Daily Workflow Oversight: Monitor the progress of tasks assigned to staff and contractors to ensure delivery timelines for major programmes are met, escalating potential bottlenecks to the Manager.
-Reporting & Visibility: Maintain and update Dashboards and KPIs to provide the Manager with a clear, real-time view of technical data package status and team productivity.
-Documentation Standardisation: Develop and maintain work instructions, style guides, and instructional materials to assist the team in producing consistent, high-quality output.
-Technical Review & Quality Assurance
-TDP Gatekeeping: Perform thorough peer reviews and technical checks on various publications (CFTOs, LSARs, BOMs, and drawings) to ensure compliance with military and customer standards before final approval.
-Change Package Processing: Review and prepare disposition recommendations for Document Change Packages, liaising with technical contributors to address requirements and coordinate revisions.
-Audit & Review Support: Assist the Manager in preparing for Physical Configuration Audits (PCA) and design reviews by organising evidence, tracking progress, and ensuring the final TDP is logically structured.
-Verification Coordination: Track and report on the status of technical verification activities to ensure all products are accurate and compliant with the support solution.
-Systems & Process Support
-Workflow Administration: Oversee the day-to-day operation of the Master Data Management Portal, using SharePoint and Nintex to process deliveries to external stakeholders and clients.
-Process Enhancement: Identify manual bottlenecks and assist the Manager in implementing automated solutions using VBA, SQL, or XML to improve team efficiency.
-Tool Maintenance: Serve as the primary functional user for the OmegaPS suite and related logistics tools, identifying bugs and coordinating resolutions with vendors to ensure system availability.
-ILS & Stakeholder Liaison
-Cross-Functional Alignment: Coordinate with Obsolescence, Sparing, and Engineering teams to ensure that publication updates are synchronised with Integrated Logistics Support (ILS) functions and LSAR entries.
-Data Indexing: Facilitate the indexing of documentation in accordance with the National Defence Index of Documentation (NDID) and the relevant Equipment Family Tree (EFT).
-
-
-Minimum Qualifications
-
-Education: Minimum 2-year technical programme diploma from a recognised institute in a related technical field (Mechanical, Electrical, Software, or Naval Architecture) or eligibility for registration as a technician.
-Experience: * Minimum of 5 years of demonstrated experience in the production, revision, and coordination of complex Technical Data Packages (TDP).
-Proven experience in a senior analyst or coordinator role within a defence, marine, or aerospace environment.
-Technical Knowledge; Comprehensive understanding of Integrated Logistics Support (ILS) and LSAR management; Advanced proficiency in OmegaPS, IPESA, SharePoint, and Nintex Workflow;Strong ability to interpret engineering drawings, technical manuals, and Bills of Materials (BOM).
-Specialised Skills: Functional familiarity with SQL, XML, and VBA to support documentation management.
-Compliance: Direct experience navigating military and Department of National Defence (DND) regulations and standards.
-
-
-If you’re excited about working with Thales, but not meeting the requirements for this position, we encourage you to join our Talent Community!
-
-Preferred Qualifications
-
-Certifications: Successful completion of a Technical Writer Ontario College Graduate Certificate or equivalent experience.
-Specifications & Documentation: Advanced knowledge of S1000D specifications, IETM formats, and CFTO formatting (including government-adopted technical publications).
-Military Infrastructure & Industry Context: * Familiarity with DRMIS, the NDID, and cataloguing within the Canadian Forces Supply System.
-Direct experience with DND In-Service Support (ISS) contracts and supporting operational military assets.
-Standardisation & Analysis: * Familiarity with Logistics Support Analysis (LSA) and formal requirements (MIL-STD-1388-2B, GEIA-STD-0007).
-Exposure to LSA application software such as OmegaPS.
-Data & Databases: Proficiency in Power BI and Microsoft Access is considered a strong asset for data visualization and tracking.
-Language: Bilingualism (English/French) is highly desirable.
-Certifications: Successful completion of a Technical Writer Ontario College Graduate Certificate or equivalent experience.
-
+During the interview process, your Recruiter will review our total rewards (base, equity, bonus, perks, benefit, culture) offerings. The final offer is determined by your proficiencies within this level. 

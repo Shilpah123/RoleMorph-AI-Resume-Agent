@@ -227,9 +227,7 @@ class FinalResumeApp:
         gauge_row = tk.Frame(dashboard, bg=CARD)
         gauge_row.pack(fill=tk.X, pady=(10, 0))
         self.metrics_vars["ats"] = tk.StringVar(value="ATS Compatibility: —")
-        self.metrics_vars["confidence"] = tk.StringVar(value="Confidence: —")
         ttk.Label(gauge_row, textvariable=self.metrics_vars["ats"], style="CardPrimary.TLabel", font=("Arial", 10, "bold")).pack(anchor="w")
-        ttk.Label(gauge_row, textvariable=self.metrics_vars["confidence"], style="CardMuted.TLabel", font=("Arial", 9)).pack(anchor="w", pady=(2, 0))
 
         self.ats_bar = ttk.Progressbar(dashboard, orient="horizontal", mode="determinate", maximum=100, length=240)
         self.ats_bar.pack(fill=tk.X, pady=(8, 0))
@@ -426,11 +424,7 @@ class FinalResumeApp:
             self.ats_bar["value"] = max(0, min(100, score))
             self.metrics_vars["ats"].set(f"ATS Compatibility: {score}/100")
 
-            conf = ats.get("confidence")
-            if conf:
-                self.metrics_vars["confidence"].set(f"Confidence: {conf.get('level', '—')} ({conf.get('score', 0)}/100)")
-            else:
-                self.metrics_vars["confidence"].set("Confidence: —")
+            # Confidence metric removed for demo purposes
 
             # Only show before/after for customize workflow
             # For analyze, just show current score
@@ -958,7 +952,6 @@ class FinalResumeApp:
         
         # Reset dashboard metrics
         self.metrics_vars["ats"].set("ATS Compatibility: —")
-        self.metrics_vars["confidence"].set("Confidence: —")
         self.metrics_vars["before_score"].set("")
         self.metrics_vars["after_score"].set("")
         self.ats_bar['value'] = 0
